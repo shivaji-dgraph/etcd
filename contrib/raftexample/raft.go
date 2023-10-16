@@ -483,6 +483,7 @@ func (rc *raftNode) serveChannels() {
 	}
 }
 
+// gvvhgvhjhvhjvjj
 // When there is a `raftpb.EntryConfChange` after creating the snapshot,
 // then the confState included in the snapshot is out of date. so We need
 // to update the confState before sending a snapshot to a follower.
